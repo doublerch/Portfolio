@@ -63,12 +63,12 @@ ul li {
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: #2A5DB0;
   }
   
   /* visited link */
   a:visited {
-    color: #2A5DB0;
+    color: #551A8B;
   }
   
   /* mouse over link */
