@@ -1,0 +1,123 @@
+body{
+  font-family: 'Bangers', sans-serif;
+}
+
+section .title{
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container{
+  max-width:1024px;
+  width:100%;
+  margin: 0 auto;
+  padding:50px 20px 20px 20px; 
+  box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+} 
+
+ul li {
+  padding: 2rem;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#news div {
+  padding: 4px;
+} 
+
+[class*="col-"]{
+  flex-basis: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {flex-basis: 8.33%;}
+  .col-2 {flex-basis: 16.66%;}
+  .col-3 {flex-basis: 25%;}
+  .col-4 {flex-basis: 33.33%;}
+  .col-5 {flex-basis: 41.66%;}
+  .col-6 {flex-basis: 50%;}
+  .col-7 {flex-basis: 58.33%;}
+  .col-8 {flex-basis: 66.66%;}
+  .col-9 {flex-basis: 75%;}
+  .col-10 {flex-basis: 83.33%;}
+  .col-11 {flex-basis: 91.66%;}
+  .col-12 {flex-basis: 100%;}
+  
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #2A5DB0;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+.profile-image {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+}
+
+.project-tags * {
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.personal {
+  background-color: #7FFFD4;
+  color: black;
+}
+.game {
+  background-color: #FF7F50;
+}
+
+.swift {
+  background-color: #FFB6C1;
+}
+
+.java {
+  background-color: #7CFC00;
+}
+
+.school {
+  background-color:#D8BFD8;
+}
+
+.app {
+  background-color: #EE82EE;
+}

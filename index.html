@@ -2,6 +2,30 @@
 <html lang="en">
 <head>
     <title>Ryan Chen's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:description" content="Offering tour packages for individuals or groups.">
+    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <!--  Non-Essential, But Recommended -->
+
+    <meta property="og:site_name" content="European Travel, Inc.">
+    <meta name="twitter:image:alt" content="Alt text for image">
+
+
+    <!--  Non-Essential, But Required for Analytics -->
+
+    <meta property="fb:app_id" content="your_app_id" />
+    <meta name="twitter:site" content="@website-username">
 </head>
 <body>
     <div class="container">
@@ -19,85 +43,84 @@
             </ul>
         </nav>
         <section id="about">
-            <h1>Ryan Chen</h1>
-            <div>
-                <img src= "Assets/Self.JPG" width = 20% height = 20%>
+            <h1 class="title animated jackInTheBox delay-1s">Ryan Chen</h1>
+            <div class="row">
+                <div class="col-6">
+                <img class="profile-image" src= "Assets/Self.JPG" width = 50% height = 50%>
                 <p>
                     <strong>Current Student at Boston College</strong><br>
                     chencnk@bc.edu <br>
                     885 Centre Street, Newton Center, MA 02459<br>
-                    <a href="Assets/Resume.pdf" target="_blank">Resume</a> |
-                    <a href="https://www.linkedin.com/in/ryan-c-26a9aab8/" target="_blank">LinkedIn</i></a> | <a href="https://github.com/doublerch" target="_blank">Github</a><br> | <a href="https://www.facebook.com/profile.php?id=100005483688943" target="_blank">Facebook</a><br>
+                    <a href="Assets/Resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> Resume</a> |
+                    <a href="https://www.linkedin.com/in/ryan-c-26a9aab8/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | <a href="https://github.com/doublerch" target="_blank"><i class="fab fa-github"></i> Github</a> | <a href="https://www.facebook.com/profile.php?id=100005483688943" target="_blank"><i class="fab fa-facebook"></i> Facebook</a><br>
                 </p>
-                
-            </div>    
-            <div>
+                </div> 
+            <div class="col-6">
                 <p>
                     Ryan Chen is a full-time student at <strong>Boston College</strong>, pursuing a B.A. in Economics and B.S. in Computer Science. He was born and raised in Avon, Connecticut before moving to Shanghai at the age of 10 to study at <strong>Concordia International School Shanghai</strong>. He studied in Shanghai for 8 years before graduating and coming back to the U.S. to study at BC.
                 </p>
             </div>
-            
-        
+        </div> 
         </section>
         <section id="news">
-            <h1>News</h1>
+            <h1 class="title animated jackInTheBox delay-1s">News</h1>
             <div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         Joined CSA/KSA Showcase
                     </div>
-                    <div>
+                    <div class="col-4">
                         Jan 16, 2020
                     </div>
                 </div> 
-                <div>
-                    <div>
-                        <br>Visiting Sanya
+                <div class="row">
+                    <div class="col-6">
+                        Visiting Sanya
                     </div>
-                    <div>
+                    <div class="col-4">
                         Dec 23, 2019       
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <br>Traveling to Shanghai
+                <div class="row">
+                    <div class="col-6">
+                        Traveling to Shanghai
                     </div>
-                    <div>
+                    <div class="col-4">
                         Dec 19, 2019            
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <br>Enrollment at Boston College
+                <div class="row">
+                    <div class="col-6">
+                        Enrollment at Boston College
                     </div>
-                    <div>
+                    <div class="col-4">
                         Aug 19, 2019            
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <br>Japan Senior Trip
+                <div class="row">
+                    <div class="col-6">
+                        Japan Senior Trip
                     </div>
-                    <div>
+                    <div class="col-4">
                         June 10, 2019            
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <br>High School Graduation
+                <div class="row">
+                    <div class="col-6">
+                        High School Graduation
                     </div>
-                    <div>
+                    <div class="col-4">
                         May 20, 2019           
                     </div>
                 </div>
             </div>
+
         </section>
         <section id="projects">
-            <h1>Projects</h1>
-        
+            <h1 class="title animated jackInTheBox delay-1s">Projects</h1>
             <div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <a href="bullseye.html"><strong>Bullseye</strong></a>
                         </div>
@@ -107,22 +130,26 @@
                         <div>
                             <em>iOS Apprentice, 6th ed. by Matthijs Hollemans and Fahim Fahrook. Copyright ©2017 Razeware LLC</em>
                         </div>
-                        <div>
+                        <div class="project-tags">
                             <span>Tags: </span>
-                            <span>Personal | </span>
-                            <span>Swift | </span>
-                            <span>App</span>
-                        </div>
-                        <div>
-                            <span><a href="Assets/BullsEye/Demo.mp4" target="_blank">Video</a></span>
+                            <span class="personal">Personal</span>
+                            <span class="swift">Swift</span>
+                            <span class="app">App</span>
+                            <span class="game">Game</span>
                         </div>
                     </div> 
+                    <div class="col-6">
+                        <div>
+                            <span><a href="Assets/BullsEye/Demo.mp4" target="_blank">Bullseye Demo <i class="fas fa-video"></i></a></span>
+                        </div>
+                    
                     <div>
-                        <span><img src="Assets/BullsEye/Teaser.png" width = 20% height = 20%></span>
+                        <span class="animated bounceInLeft delay-1s"><img src="Assets/BullsEye/Teaser.png" width = 50% height = 50%></span>
+                    </div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <br><a href="spaceinvaders.html"><strong>Space Invaders</strong></a>
                         </div>
@@ -132,23 +159,24 @@
                         <div>
                             <em>Source code by Kevin Glass</em>
                         </div>
-                        <div>
+                        <div class="project-tags">
                                 <span>Tags: </span>
-                                <span>Class | </span>
-                                <span>Java | </span>
-                                <span>Game</span>
+                                <span class="school">School</span>
+                                <span class="java">Java</span>
+                                <span class="game">Game</span>
                         </div>
-                        <div>
-                            <span><a href="Assets/SpaceInvaders/Demo.mp4" target="_blank">Video</a></span>
-                        </div>
-        
                     </div> 
+                    <div class="col-6">
+                        <div>
+                            <span><a href="Assets/SpaceInvaders/Demo.mp4" target="_blank">Space Invaders Demo <i class="fas fa-video"></i></a></span>
+                        </div>
                     <div>
-                        <span><img src="Assets/SpaceInvaders/Teaser.png" width = 20% height = 20%></span>
+                        <span class="animated bounceInLeft delay-1s"><img src="Assets/SpaceInvaders/Teaser.png" width = 50% height = 50%></span>
+                    </div>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <br><a href="masterplan.html"><strong>MasterPlan</strong></a>
                         </div>
@@ -158,18 +186,21 @@
                         <div>
                             <em>Intended for use by Concordia National Honor Society</em>
                         </div>
-                        <div>
+                        <div class="project-tags">
                                 <span>Tags: </span>
-                                <span>Personal | </span>
-                                <span>Swift | </span>
-                                <span>App</span>
-                        </div>
-                        <div>
-                            <a href="Assets/Masterplan/Layout.pdf" target="_blank">Layout</a>
+                                <span class="personal">Personal</span>
+                                <span class="swift">Swift</span>
+                                <span class="app">App</span>
+
                         </div>
                     </div> 
+                    <div class="col-6">
+                        <div>
+                            <a href="Assets/Masterplan/Layout.pdf" target="_blank">Masterplan Layout <i class="fas fa-file-alt"></i></a>
+                        </div>
                     <div>
-                        <span><img src="Assets/Masterplan/Teaser.png" width = 20% height = 20%></span>
+                        <span class="animated bounceInLeft delay-1s"><img src="Assets/Masterplan/Teaser.png" width = 50% height = 50%></span>
+                    </div>
                     </div>
                 </div>
     
