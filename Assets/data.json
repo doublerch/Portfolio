@@ -1,0 +1,95 @@
+
+{
+    "navbar":{
+        "first": "About",
+        "second": "News",
+        "third": "Projects",
+        "back": "Go Back"
+    },
+
+    "about":{
+        "name": "Ryan Chen",
+        "title": "Current Student at Boston College",
+        "photo": "Assets/Self.JPG",
+        "resume": "Assets/Resume.pdf",
+        "email": "chencnk@bc.edu",
+        "address": "885 Centre Street, Newton Center, MA 02459",
+        "linkedin": "https://www.linkedin.com/in/ryan-c-26a9aab8/",
+        "github": "https://github.com/doublerch",
+        "facebook": "https://www.facebook.com/profile.php?id=100005483688943",
+        "description": "Ryan Chen is a full-time student at <strong>Boston College</strong>, pursuing a B.A. in Economics and B.S. in Computer Science. He was born and raised in Avon, Connecticut before moving to Shanghai at the age of 10 to study at <strong>Concordia International School Shanghai</strong>. He studied in Shanghai for 8 years before graduating and coming back to the U.S. to study at BC."
+    },
+
+    "news":[
+        {
+            "title": "Joined CSA/KSA Showcase",
+            "date": "Jan 16, 2020"
+        },
+        {
+            "title": "Visiting Sanya",
+            "date": "Dec 23, 2019"
+        },
+        {
+            "title": "Traveling to Shanghai",
+            "date": "Dec 19, 2019"
+        },
+        {
+            "title": "Enrollment at Boston College",
+            "date": "Aug 19, 2019"
+        },
+        {
+            "title": "Japan Senior Trip",
+            "date": "June 10, 2019"
+        },
+        {
+            "title": "High School Graduation",
+            "date": "May 20, 2019"
+        }
+    ],
+
+    "projects":[
+        {
+            "title": "Bullseye",
+            "authors": "Ryan Chen",
+            "source": "iOS Apprentice, 6th ed. by Matthijs Hollemans and Fahim Fahrook. Copyright ©2017 Razeware LLC",
+            "teaser": "Assets/BullsEye/Teaser.png",
+            "tags": ["personal", "swift", "app", "game"],
+            "materials":{
+                "label": "Bullseye Demo",
+                "path": "Assets/BullsEye/Demo.mp4"
+            },
+            "description": "The first app I made, introducing me to both Swift and xCode with guided instruction from iOS Apprentice."
+        },
+        {
+            "title":  "Space Invaders",
+            "authors": "Ryan Chen, Kevin Jin, Henry Cheng",
+            "source": "Source code by Kevin Glass",
+            "teaser": "Assets/SpaceInvaders/Teaser.png",
+            "tags": ["school", "java", "game"],
+            "materials":{
+                "label": "Space Invaders Demo",
+                "path": "Assets/SpaceInvaders/Demo.mp4"
+            },
+            "description": "Game created as a project in AP Computer Science, emulating the original Space Invaders game (1978) by Taito. Source code was provided by Kevin Glass, creating the base game and its visuals, but as a group we worked on the movement of the character and the mechanics/rules of the game itself."
+        },
+        {
+            "title": "MasterPlan",
+            "authors": "Ryan Chen, Yoochan Shin, Joshua Shou, Evelyn Shi, Allison Chen",
+            "source": "Intended for use by Concordia National Honor Society",
+            "teaser": "Assets/Masterplan/Teaser.png",
+            "tags": ["personal", "swift", "app"],
+            "materials":{
+                "label": "MasterPlan Layout",
+                "path": "Assets/Masterplan/Layout.pdf"
+            },
+            "description": "This app was designed to streamline both tutoring and service opportunities. Students would be able to register as either a tutor or tutee in any field including Math, Science, English, Social Sciences, and Chinese, as well as observe upcoming service opportunities and register for them through the app."
+        }
+
+
+    ]
+
+
+
+
+
+}
