@@ -29,13 +29,13 @@ function renderNavBar(navbar){
     <nav>
     <ul>
         <li>
-            <a href="#about">About</a>
+            <a href="#about">${navbar.first}</a>
         </li>
         <li>
-            <a href="#news">News</a>
+            <a href="#news">${navbar.second}</a>
         </li>
         <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">${navbar.third}</a>
         </li>
     </ul>
     </nav>
