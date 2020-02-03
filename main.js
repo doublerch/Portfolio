@@ -1,8 +1,7 @@
 fetch ('assets/data.json')
 .then (response => {
     return response.json();
-})
-.then(data => {
+}).then(data => {
     console.log(data);
     //render HTML here
 
