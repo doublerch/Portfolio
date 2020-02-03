@@ -25,34 +25,21 @@ fetch ('assets/data.json')
 });
 
 function renderNavBar(navbar){
- /*   if (urlParams.has("project")){
-        return(`
-        <nav>
-        <ul>
-            <li>
-                <a href="index.html">"Go Back"</a>
-            </li>
-        </ul>
-    </nav>
-    `)
-    }*/
- //   else{
     return(`
     <nav>
     <ul>
         <li>
-            <a href="#about">${navbar.first}</a>
+            <a href="#about">About</a>
         </li>
         <li>
-            <a href="#news">${navbar.second}</a>
+            <a href="#news">News</a>
         </li>
         <li>
-            <a href="#projects">${navbar.third}</a>
+            <a href="#projects">Projects</a>
         </li>
     </ul>
     </nav>
     `)
- //   }
 }
 function renderMainPage(data){
 
@@ -65,7 +52,7 @@ function renderMainPage(data){
     `;
 
 }
-function renderGoBack(){
+/*function renderGoBack(){
     return(`
     <nav>
     <ul>
@@ -76,11 +63,10 @@ function renderGoBack(){
 </nav>
 `)
 }
-
+*/
 
 function renderProjectPage(projects){
     document.querySelector('.container').innerHTML = `
-    ${renderGoBack()}
     <section>
         <h1 class="title animated jackInTheBox delay-1s">${projects.title}</h1>
         <span class="animated bounceInLeft delay-1s"><img src=${projects.teaser} width = 50% height = 50%></span>
