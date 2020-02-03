@@ -52,7 +52,7 @@ function renderMainPage(data){
     `;
 
 }
-/*function renderGoBack(){
+function renderGoBack(){
     return(`
     <nav>
     <ul>
@@ -63,10 +63,11 @@ function renderMainPage(data){
 </nav>
 `)
 }
-*/
+
 
 function renderProjectPage(projects){
     document.querySelector('.container').innerHTML = `
+    ${renderGoBack()}
     <section>
         <h1 class="title animated jackInTheBox delay-1s">${projects.title}</h1>
         <span class="animated bounceInLeft delay-1s"><img src=${projects.teaser} width = 50% height = 50%></span>
